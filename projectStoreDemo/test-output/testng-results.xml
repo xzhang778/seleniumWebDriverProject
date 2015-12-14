@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22752" started-at="2015-12-14T01:31:00Z" finished-at="2015-12-14T01:31:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22752" started-at="2015-12-14T01:31:00Z" finished-at="2015-12-14T01:31:23Z">
+      <class name="com.projectStore.testPages.TestProjectStorePages">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="Setup" is-config="true" duration-ms="3895" started-at="2015-12-14T01:31:00Z" finished-at="2015-12-14T01:31:04Z">
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="testOpenDemoQAHomePage()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testOpenDemoQAHomePage" duration-ms="2890" started-at="2015-12-14T01:31:04Z" finished-at="2015-12-14T01:31:07Z">
+        </test-method> <!-- testOpenDemoQAHomePage -->
+        <test-method status="PASS" signature="testMenuItemAccessories()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testMenuItemAccessories" duration-ms="3050" started-at="2015-12-14T01:31:07Z" depends-on-methods="com.projectStore.testPages.TestProjectStorePages.testOpenDemoQAHomePage" finished-at="2015-12-14T01:31:10Z">
+        </test-method> <!-- testMenuItemAccessories -->
+        <test-method status="PASS" signature="testButtonAddToCart()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testButtonAddToCart" duration-ms="848" started-at="2015-12-14T01:31:10Z" depends-on-methods="com.projectStore.testPages.TestProjectStorePages.testMenuItemAccessories" finished-at="2015-12-14T01:31:11Z">
+        </test-method> <!-- testButtonAddToCart -->
+        <test-method status="PASS" signature="testButtonCheckOut()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testButtonCheckOut" duration-ms="2345" started-at="2015-12-14T01:31:11Z" depends-on-methods="com.projectStore.testPages.TestProjectStorePages.testButtonAddToCart" finished-at="2015-12-14T01:31:13Z">
+        </test-method> <!-- testButtonCheckOut -->
+        <test-method status="PASS" signature="testCheckOutPageProductPrice()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testCheckOutPageProductPrice" duration-ms="68" started-at="2015-12-14T01:31:13Z" depends-on-methods="com.projectStore.testPages.TestProjectStorePages.testButtonAddToCart" finished-at="2015-12-14T01:31:13Z">
+        </test-method> <!-- testCheckOutPageProductPrice -->
+        <test-method status="PASS" signature="testCheckOutPageQuantity()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testCheckOutPageQuantity" duration-ms="42" started-at="2015-12-14T01:31:13Z" depends-on-methods="com.projectStore.testPages.TestProjectStorePages.testButtonAddToCart" finished-at="2015-12-14T01:31:13Z">
+        </test-method> <!-- testCheckOutPageQuantity -->
+        <test-method status="PASS" signature="testCheckOutPageTotalProductPrice()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testCheckOutPageTotalProductPrice" duration-ms="54" started-at="2015-12-14T01:31:13Z" depends-on-methods="com.projectStore.testPages.TestProjectStorePages.testButtonAddToCart" finished-at="2015-12-14T01:31:13Z">
+        </test-method> <!-- testCheckOutPageTotalProductPrice -->
+        <test-method status="PASS" signature="testButtonContinue()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testButtonContinue" duration-ms="2476" started-at="2015-12-14T01:31:13Z" depends-on-methods="com.projectStore.testPages.TestProjectStorePages.testButtonCheckOut" finished-at="2015-12-14T01:31:16Z">
+        </test-method> <!-- testButtonContinue -->
+        <test-method status="PASS" signature="testButtonPurchase()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testButtonPurchase" duration-ms="6000" started-at="2015-12-14T01:31:16Z" depends-on-methods="com.projectStore.testPages.TestProjectStorePages.testButtonCheckOut" finished-at="2015-12-14T01:31:22Z">
+        </test-method> <!-- testButtonPurchase -->
+        <test-method status="PASS" signature="testResultPageProductFinalCost()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testResultPageProductFinalCost" duration-ms="39" started-at="2015-12-14T01:31:22Z" depends-on-methods="com.projectStore.testPages.TestProjectStorePages.testButtonPurchase" finished-at="2015-12-14T01:31:22Z">
+        </test-method> <!-- testResultPageProductFinalCost -->
+        <test-method status="PASS" signature="testResultPageProductName()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testResultPageProductName" duration-ms="169" started-at="2015-12-14T01:31:22Z" depends-on-methods="com.projectStore.testPages.TestProjectStorePages.testButtonPurchase" finished-at="2015-12-14T01:31:22Z">
+        </test-method> <!-- testResultPageProductName -->
+        <test-method status="PASS" signature="testResultPageProductPrice()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testResultPageProductPrice" duration-ms="148" started-at="2015-12-14T01:31:22Z" depends-on-methods="com.projectStore.testPages.TestProjectStorePages.testButtonPurchase" finished-at="2015-12-14T01:31:22Z">
+        </test-method> <!-- testResultPageProductPrice -->
+        <test-method status="PASS" signature="testResultPageProductQuantity()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testResultPageProductQuantity" duration-ms="129" started-at="2015-12-14T01:31:22Z" depends-on-methods="com.projectStore.testPages.TestProjectStorePages.testButtonPurchase" finished-at="2015-12-14T01:31:22Z">
+        </test-method> <!-- testResultPageProductQuantity -->
+        <test-method status="PASS" signature="testResultPageProductTotalPrice()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="testResultPageProductTotalPrice" duration-ms="115" started-at="2015-12-14T01:31:22Z" depends-on-methods="com.projectStore.testPages.TestProjectStorePages.testButtonPurchase" finished-at="2015-12-14T01:31:22Z">
+        </test-method> <!-- testResultPageProductTotalPrice -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.projectStore.testPages.TestProjectStorePages@546a03af]" name="teardown" is-config="true" duration-ms="443" started-at="2015-12-14T01:31:22Z" finished-at="2015-12-14T01:31:23Z">
+        </test-method> <!-- teardown -->
+      </class> <!-- com.projectStore.testPages.TestProjectStorePages -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
